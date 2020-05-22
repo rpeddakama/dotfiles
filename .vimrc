@@ -3,7 +3,7 @@ filetype on
 
 set number relativenumber 
 set lazyredraw
-set tabstop=1
+set tabstop=4
 set shiftwidth=5
 set autoindent
 set smartindent
@@ -14,21 +14,18 @@ set showmatch
 set incsearch
 set hlsearch
 
-colorscheme dracula 
-set background=gray
 
 highlight Comment ctermfg=lightblue
 
-call plug#begin()
-
-					Plug 'flazz/vim-colorschemes'
-
-call plug#end()
+colorscheme slate
 
 nnoremap<leader><space> :nohlsearch<CR>
 nnoremap B ^
 nnoremap E $k
+map <C-a> <esc>ggVG<CR>
 
+nnoremap <C-c> :!g++ -o  %:r.out % -std=c++11<Enter>
+nnoremap <C-x> :!./%:r.out
 inoremap jk <esc>
 inoremap ' ''<left>
 inoremap " ""<left>
