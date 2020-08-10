@@ -1,2 +1,2 @@
 # dotfiles
-GVIM > vim (Raadwan is wrong)
+Vimrc for Gvim
