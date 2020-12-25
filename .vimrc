@@ -13,9 +13,10 @@ set showmatch
 set incsearch
 set hlsearch
 
-
 highlight Comment ctermfg=lightblue
 
+colorscheme solarized
+set background=light
 
 nnoremap<leader><space> :nohlsearch<CR>
 nnoremap B ^
