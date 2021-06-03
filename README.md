@@ -1,2 +1,2 @@
 # dotfiles
-Vimrc for Gvim 
+Vimrc
